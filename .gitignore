@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Env
+.env
+.env.*
+
+# Models
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# Vector DB
+faiss_index/
+chroma/
+vectorstore/
+
+# Data
+data/
+*.pdf
+*.docx
+*.txt
+*.csv
+
+# Cache
+.cache/
+.cache-huggingface/
+.hf_cache/
+huggingface/
+torch_cache/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
